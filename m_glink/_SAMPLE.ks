@@ -11,8 +11,9 @@
 [cl val="クリックで次へ進む"]
 [p]
 
-[m_glink name="glink_1" text_1="ボタン１" text_2="ボタン１（選択済み）" target_1="l1" color_1="white" x_1="100" y_1="100"]
-[m_glink name="glink_2" text_1="ボタン２" text_2="ボタン２（選択済み）" target_1="l2" target_2="l3" color_1="white" x_1="100" y_1="300"]
+[glink name="glink_1" text="ボタン１" target="l1" color="blue" x="100" y="100"]
+[m_glink name="glink_2" text_1="ボタン２" text_2="ボタン２（選択済み）" target_1="l1" color_1="blue" color_2="white" x_1="100" y_1="200"]
+[m_glink name="glink_3" text_1="ボタン３" text_2="ボタン３（選択済み）" target_1="l2" target_2="l3" color_1="blue" color_2="white" x_1="100" y_1="300"]
 [s]
 
 *l1
